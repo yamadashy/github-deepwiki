@@ -1,6 +1,9 @@
-# <img src="app/images/icon-128.png" height=26> GitHub DeepWiki
-
-A browser extension that adds a DeepWiki button to GitHub repositories.
+# <div align="center">
+  <img src="app/images/icon.png" alt="GitHub DeepWiki" width="500" height="auto">
+  <p align="center">
+    <b>A browser extension that adds a DeepWiki button to GitHub repositories</b>
+  </p>
+</div>
 
 ![](./promo/Screenshot_1280x800.png)
 
