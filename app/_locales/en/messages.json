@@ -6,9 +6,5 @@
   "appDescription": {
     "message": "Add a button to quickly access DeepWiki from GitHub repositories",
     "description": "The description of the extension"
-  },
-  "openInDeepWiki": {
-    "message": "Open in DeepWiki",
-    "description": "Button text to open repository in DeepWiki"
   }
 }

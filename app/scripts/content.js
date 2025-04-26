@@ -42,7 +42,7 @@ function addDeepWikiButton() {
   `;
 
   // Add text with i18n support
-  const text = document.createTextNode(chrome.i18n.getMessage('openInDeepWiki'));
+  const text = document.createTextNode('DeepWiki');
   button.appendChild(icon);
   button.appendChild(text);
   btnGroup.appendChild(button);

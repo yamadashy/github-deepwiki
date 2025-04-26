@@ -6,9 +6,5 @@
   "appDescription": {
     "message": "GitHubリポジトリからDeepWikiへ簡単にアクセスするためのボタンを追加します",
     "description": "The description of the extension"
-  },
-  "openInDeepWiki": {
-    "message": "DeepWikiで開く",
-    "description": "Button text to open repository in DeepWiki"
   }
 }
