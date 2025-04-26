@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "github-deepwiki",
+  "description": "GitHub repositories documentation generator with AI",
+  "scripts": {
+    "dev": "webextension-toolbox dev",
+    "build": "webextension-toolbox build"
+  },
+  "devDependencies": {
+    "@webextension-toolbox/webextension-toolbox": "^7.1.1",
+    "sharp": "^0.34.1",
+    "webpack": "^5.89.0"
+  },
+  "dependencies": {
+    "webextension-polyfill": "^0.10.0"
+  }
+}
