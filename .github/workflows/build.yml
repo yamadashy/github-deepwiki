@@ -1,0 +1,49 @@
+name: Build Extensions
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        lfs: true
+
+    - name: Setup node
+      uses: actions/setup-node@v4
+      with:
+        node-version-file: .tool-versions
+        cache: npm
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Build Chrome Extension
+      run: npm run build chrome
+
+    - name: Build Firefox Extension
+      run: npm run build firefox
+
+    - name: Build Edge Extension
+      run: npm run build edge
+
+    - name: Build Opera Extension
+      run: npm run build opera
+
+    - name: Build Safari Extension
+      run: npm run build safari
+
+    - name: Archive packages
+      uses: actions/upload-artifact@v4
+      with:
+        name: packages
+        path: packages
