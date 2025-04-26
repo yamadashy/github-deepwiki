@@ -8,7 +8,25 @@
     "lint": "npm run lint-biome && npm run lint-secretlint",
     "lint-biome": "biome check --write",
     "lint-secretlint": "secretlint \"**/*\" --secretlintignore .gitignore",
-    "check": "biome check --write ."
+    "archive": "git archive HEAD -o storage/source.zip"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "firefox",
+    "addon",
+    "deepwiki",
+    "github",
+    "documentation",
+    "ai",
+    "chatgpt",
+    "openai",
+    "chat"
+  ],
+  "author": "yamadashy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yamadashy/github-deepwiki/issues"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
