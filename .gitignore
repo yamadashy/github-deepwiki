@@ -1,0 +1,39 @@
+# Dependency directories
+node_modules/
+
+# Build output
+lib/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# Test coverage
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Repomix output
+repomix-output.txt
+repomix-output.xml
+repomix-output.md
+
+# ESLint cache
+.eslintcache
+
+# yarn
+.yarn/
+
+# biome
+.biome/
+
+# aider
+.aider*
