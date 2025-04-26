@@ -1,0 +1,6 @@
+{
+  "appDescription": {
+    "message": "Добавляет кнопку для быстрого доступа к DeepWiki из репозиториев GitHub",
+    "description": "The description of the extension"
+  }
+}

@@ -1,0 +1,24 @@
+GitHub DeepWiki (Unofficial)
+
+Deze browserextensie voegt een handige "DeepWiki"-knop toe aan GitHub repository-pagina's, waarmee je snel toegang krijgt tot de documentatie van de repository op DeepWiki.
+
+Functies:
+- Naadloze integratie met de GitHub-interface
+- Één-klik toegang tot DeepWiki voor elke GitHub repository
+- Strak en minimalistisch ontwerp volgens GitHub UI-patronen
+- Werkt op alle GitHub repository-pagina's
+
+Gebruik:
+1. Installeer de extensie
+2. Navigeer naar een GitHub repository
+3. Klik op de "Open in DeepWiki"-knop in de repository header
+4. Je wordt doorgestuurd naar de bijbehorende DeepWiki-pagina
+
+Opmerking:
+Dit is een niet-officiële extensie en is niet gelieerd aan GitHub of DeepWiki. Het biedt simpelweg een handige manier om te navigeren tussen GitHub repositories en hun bijbehorende DeepWiki-pagina's.
+
+Privacy:
+- Geen gegevensverzameling
+- Geen tracking
+- Geen authenticatie vereist
+- Heeft alleen toegang nodig tot github.com om de knop toe te voegen

@@ -1,0 +1,24 @@
+GitHub DeepWiki (Unofficial)
+
+이 브라우저 확장 프로그램은 GitHub 저장소 페이지에 편리한 "DeepWiki" 버튼을 추가하여 DeepWiki에서 저장소의 문서에 빠르게 접근할 수 있게 해줍니다.
+
+기능:
+- GitHub 인터페이스와 원활한 통합
+- 모든 GitHub 저장소에 대한 원클릭 DeepWiki 접근
+- GitHub UI 패턴을 따르는 깔끔하고 미니멀한 디자인
+- 모든 GitHub 저장소 페이지에서 작동
+
+사용 방법:
+1. 확장 프로그램 설치
+2. 아무 GitHub 저장소로 이동
+3. 저장소 헤더에서 "DeepWiki에서 열기" 버튼 클릭
+4. 해당 DeepWiki 페이지로 리다이렉트됩니다
+
+참고:
+이것은 비공식 확장 프로그램이며 GitHub 또는 DeepWiki와 관련이 없습니다. 단순히 GitHub 저장소와 해당 DeepWiki 페이지 간의 편리한 이동 방법을 제공합니다.
+
+개인정보 보호:
+- 데이터 수집 없음
+- 추적 없음
+- 인증 불필요
+- 버튼 추가를 위해 github.com 접근만 필요

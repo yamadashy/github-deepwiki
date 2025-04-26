@@ -1,0 +1,6 @@
+{
+  "appDescription": {
+    "message": "新增按鈕以從 GitHub 儲存庫快速存取 DeepWiki",
+    "description": "The description of the extension"
+  }
+}
