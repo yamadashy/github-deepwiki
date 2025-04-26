@@ -41,8 +41,8 @@ function addDeepWikiButton() {
     <img src="${chrome.runtime.getURL('images/icon-64.png')}" width="16" height="16" alt="DeepWiki">
   `;
 
-  // Add text
-  const text = document.createTextNode('DeepWiki');
+  // Add text with i18n support
+  const text = document.createTextNode(chrome.i18n.getMessage('openInDeepWiki'));
   button.appendChild(icon);
   button.appendChild(text);
   btnGroup.appendChild(button);

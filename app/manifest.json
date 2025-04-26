@@ -1,8 +1,10 @@
 {
-  "name": "GitHub DeepWiki (Unofficial)",
+  "name": "__MSG_appName__",
+  "short_name": "github-deepwiki",
   "version": "1.0.0",
   "manifest_version": 3,
-  "description": "Add DeepWiki button to GitHub repository page",
+  "description": "__MSG_appDescription__",
+  "default_locale": "en",
   "icons": {
     "16": "images/icon-16.png",
     "19": "images/icon-19.png",
@@ -51,4 +53,4 @@
   "host_permissions": [
     "https://github.com/*"
   ]
-} 
+}
