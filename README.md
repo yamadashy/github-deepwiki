@@ -4,6 +4,11 @@ A browser extension that adds a DeepWiki button to GitHub repositories.
 
 ![](./promo/Screenshot_1280x800.png)
 
+## Install
+
+- Chrome: Pending
+- Firefox: Pending
+
 ## What is DeepWiki?
 
 [DeepWiki](https://deepwiki.com) is a powerful AI documentation tool by Cognition. It generates comprehensive documentation for any GitHub repository and allows you to chat with it - all for free for open-source projects!
