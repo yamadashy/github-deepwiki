@@ -1,0 +1,17 @@
+.deepwiki-button.btn-sm.btn.BtnGroup-item {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 12px;
+  gap: 8px;
+}
+
+.deepwiki-button .octicon {
+  display: inline-flex;
+  align-items: center;
+}
+
+.deepwiki-button .octicon img {
+  display: block;
+  vertical-align: text-bottom;
+} 
