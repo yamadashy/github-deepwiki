@@ -30,9 +30,9 @@ const injectContentToTab = async (tab) => {
     await chrome.scripting.insertCSS({
       target: {
         tabId: tab.id,
-        allFrames: true
+        allFrames: true,
       },
-      files: cssFiles
+      files: cssFiles,
     });
   }
 
@@ -41,9 +41,9 @@ const injectContentToTab = async (tab) => {
     await chrome.scripting.executeScript({
       target: {
         tabId: tab.id,
-        allFrames: true
+        allFrames: true,
       },
-      files: jsFiles
+      files: jsFiles,
     });
   }
 };
@@ -66,4 +66,4 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
   if (changeInfo.status === 'complete') {
     injectContentToTab(tab);
   }
-}); 
+});

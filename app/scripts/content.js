@@ -1,6 +1,5 @@
 // Function to add DeepWiki button
 function addDeepWikiButton() {
-
   // If button already exists, do nothing
   if (document.querySelector('.deepwiki-button')) {
     return;
@@ -23,12 +22,12 @@ function addDeepWikiButton() {
   // Create DeepWiki button container
   const container = document.createElement('li');
   container.className = 'deepwiki-container';
-  
+
   // Create BtnGroup container
   const btnGroup = document.createElement('div');
   btnGroup.setAttribute('data-view-component', 'true');
   btnGroup.className = 'BtnGroup';
-  
+
   // Create button
   const button = document.createElement('a');
   button.className = 'btn-sm btn BtnGroup-item deepwiki-button';
@@ -90,6 +89,6 @@ document.addEventListener('DOMContentLoaded', () => {
     childList: true,
     subtree: true,
     attributes: false,
-    characterData: false
+    characterData: false,
   });
 });

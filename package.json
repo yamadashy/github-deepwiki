@@ -4,10 +4,17 @@
   "description": "GitHub repositories documentation generator with AI",
   "scripts": {
     "dev": "webextension-toolbox dev",
-    "build": "webextension-toolbox build"
+    "build": "webextension-toolbox build",
+    "lint": "npm run lint-biome && npm run lint-secretlint",
+    "lint-biome": "biome check --write",
+    "lint-secretlint": "secretlint \"**/*\" --secretlintignore .gitignore",
+    "check": "biome check --write ."
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@secretlint/secretlint-rule-preset-recommend": "^9.3.1",
     "@webextension-toolbox/webextension-toolbox": "^7.1.1",
+    "secretlint": "^9.3.1",
     "sharp": "^0.34.1",
     "webpack": "^5.89.0"
   },
