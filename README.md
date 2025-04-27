@@ -35,6 +35,51 @@ If you have any questions or inquiries regarding the privacy policy, please cont
 
 Revised: April 26, 2025
 
+## 💻 Development
+
+Node.js 22 or higher is required for development.
+
+### Setup
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yamadashy/github-deepwiki.git
+   cd github-deepwiki
+   ```
+2. Install Node.js 22 or higher ([Node.js official site](https://nodejs.org/) or [nvm](https://github.com/nvm-sh/nvm) is recommended).
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm run dev
+   ```
+
+### Main Commands
+
+Development extension for each browser.
+
+```sh
+npm run dev chrome
+npm run dev firefox
+npm run dev edge
+```
+
+Build extension for each browser.
+
+```sh
+npm run build chrome
+npm run build firefox
+npm run build edge
+```
+
+Lint code.
+
+```sh
+npm run lint
+```
+
 ## 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
