@@ -1,5 +1,3 @@
-GitHub DeepWiki (Unofficial)
-
 这个浏览器扩展为 GitHub 仓库页面添加了一个便捷的 "DeepWiki" 按钮，让您能够快速访问 DeepWiki 上的仓库文档。
 
 功能特点：
@@ -22,3 +20,7 @@ GitHub DeepWiki (Unofficial)
 - 不跟踪
 - 无需认证
 - 仅需访问 github.com 以添加按钮
+
+源代码也可用，您可以自行构建和安装。
+详情请访问：
+https://github.com/yamadashy/github-deepwiki

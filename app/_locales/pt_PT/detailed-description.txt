@@ -1,5 +1,3 @@
-GitHub DeepWiki (Unofficial)
-
 Esta extensão do navegador adiciona um conveniente botão "DeepWiki" às páginas de repositórios do GitHub, permitindo-lhe aceder rapidamente à documentação do repositório no DeepWiki.
 
 Funcionalidades:
@@ -22,3 +20,7 @@ Privacidade:
 - Sem rastreamento
 - Sem necessidade de autenticação
 - Requer apenas acesso ao github.com para adicionar o botão
+
+O código-fonte também está disponível, e pode compilá-lo e instalá-lo você mesmo.
+Para mais detalhes, visite:
+https://github.com/yamadashy/github-deepwiki

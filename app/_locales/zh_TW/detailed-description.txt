@@ -1,5 +1,3 @@
-GitHub DeepWiki (Unofficial)
-
 這個瀏覽器擴充功能為 GitHub 儲存庫頁面新增了一個便捷的 "DeepWiki" 按鈕，讓您能夠快速存取 DeepWiki 上的儲存庫文件。
 
 功能特點：
@@ -22,3 +20,7 @@ GitHub DeepWiki (Unofficial)
 - 不追蹤
 - 無需認證
 - 僅需存取 github.com 以新增按鈕
+
+原始碼也可用，您可以自行建置和安裝。
+詳情請參閱：
+https://github.com/yamadashy/github-deepwiki

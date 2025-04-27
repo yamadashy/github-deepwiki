@@ -1,5 +1,3 @@
-GitHub DeepWiki (Unofficial)
-
 Deze browserextensie voegt een handige "DeepWiki"-knop toe aan GitHub repository-pagina's, waarmee je snel toegang krijgt tot de documentatie van de repository op DeepWiki.
 
 Functies:
@@ -22,3 +20,7 @@ Privacy:
 - Geen tracking
 - Geen authenticatie vereist
 - Heeft alleen toegang nodig tot github.com om de knop toe te voegen
+
+De broncode is ook beschikbaar en je kunt deze zelf bouwen en installeren.
+Voor meer informatie, bezoek:
+https://github.com/yamadashy/github-deepwiki

@@ -1,5 +1,3 @@
-GitHub DeepWiki (Unofficial)
-
 Diese Browser-Erweiterung fügt GitHub-Repository-Seiten eine praktische "DeepWiki"-Schaltfläche hinzu, mit der Sie schnell auf die Dokumentation des Repositories in DeepWiki zugreifen können.
 
 Funktionen:
@@ -22,3 +20,7 @@ Datenschutz:
 - Kein Tracking
 - Keine Authentifizierung erforderlich
 - Benötigt nur Zugriff auf github.com, um die Schaltfläche hinzuzufügen
+
+Der Quellcode ist ebenfalls verfügbar und Sie können ihn selbst bauen und installieren.
+Weitere Informationen finden Sie unter:
+https://github.com/yamadashy/github-deepwiki

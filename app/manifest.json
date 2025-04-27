@@ -1,6 +1,6 @@
 {
   "name": "GitHub DeepWiki (Unofficial)",
-  "short_name": "github-deepwiki",
+  "short_name": "gh-deepwiki",
   "version": "1.0.0",
   "manifest_version": 3,
   "description": "__MSG_appDescription__",
