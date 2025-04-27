@@ -11,7 +11,7 @@
 
 ### Install
 
-- Chrome: Pending
+- Chrome: [Available on Chrome Web Store](https://chromewebstore.google.com/detail/github-deepwiki-unofficia/agchcjkheangfiopepndmenabbaopnpp)
 - Firefox: Pending
 
 ### What is DeepWiki?
