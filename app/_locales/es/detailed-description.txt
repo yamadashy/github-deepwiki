@@ -1,26 +1,26 @@
 Esta extensión del navegador añade un práctico botón "DeepWiki" a las páginas de repositorios de GitHub, permitiéndote acceder rápidamente a la documentación del repositorio en DeepWiki.
 
-Características:
+🛠️ Características:
 - Integración perfecta con la interfaz de GitHub
 - Acceso con un clic a DeepWiki para cualquier repositorio de GitHub
 - Diseño limpio y minimalista siguiendo los patrones de la interfaz de GitHub
 - Funciona en todas las páginas de repositorios de GitHub
 
-Cómo usar:
+🚀 Cómo usar:
 1. Instala la extensión
 2. Navega a cualquier repositorio de GitHub
 3. Haz clic en el botón "Abrir en DeepWiki" en la cabecera del repositorio
 4. Serás redirigido a la página correspondiente de DeepWiki
 
-Nota:
+⚠️ Nota:
 Esta es una extensión no oficial y no está afiliada con GitHub o DeepWiki. Simplemente proporciona una forma conveniente de navegar entre los repositorios de GitHub y sus correspondientes páginas de DeepWiki.
 
-Privacidad:
+🔒 Privacidad:
 - Sin recolección de datos
 - Sin seguimiento
 - No requiere autenticación
 - Solo requiere acceso a github.com para añadir el botón
 
-El código fuente también está disponible, y puedes compilarlo e instalarlo tú mismo.
+💻 El código fuente también está disponible, y puedes compilarlo e instalarlo tú mismo.
 Para más detalles, visita:
 https://github.com/yamadashy/github-deepwiki

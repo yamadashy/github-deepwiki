@@ -1,26 +1,26 @@
 這個瀏覽器擴充功能為 GitHub 儲存庫頁面新增了一個便捷的 "DeepWiki" 按鈕，讓您能夠快速存取 DeepWiki 上的儲存庫文件。
 
-功能特點：
+🛠️ 功能特點：
 - 與 GitHub 介面無縫整合
 - 一鍵存取任何 GitHub 儲存庫的 DeepWiki
 - 遵循 GitHub UI 模式的簡潔設計
 - 適用於所有 GitHub 儲存庫頁面
 
-使用方法：
+🚀 使用方法：
 1. 安裝擴充功能
 2. 存取任意 GitHub 儲存庫
 3. 點擊儲存庫標題列中的 "在 DeepWiki 中開啟" 按鈕
 4. 將跳轉到對應的 DeepWiki 頁面
 
-注意：
+⚠️ 注意：
 這是一個非官方擴充功能，與 GitHub 或 DeepWiki 沒有關聯。它只是提供了一種在 GitHub 儲存庫和其對應的 DeepWiki 頁面之間便捷導覽的方式。
 
-隱私：
+🔒 隱私：
 - 不收集資料
 - 不追蹤
 - 無需認證
 - 僅需存取 github.com 以新增按鈕
 
-原始碼也可用，您可以自行建置和安裝。
+💻 原始碼也可用，您可以自行建置和安裝。
 詳情請參閱：
 https://github.com/yamadashy/github-deepwiki

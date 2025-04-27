@@ -1,26 +1,26 @@
 这个浏览器扩展为 GitHub 仓库页面添加了一个便捷的 "DeepWiki" 按钮，让您能够快速访问 DeepWiki 上的仓库文档。
 
-功能特点：
+🛠️ 功能特点：
 - 与 GitHub 界面无缝集成
 - 一键访问任何 GitHub 仓库的 DeepWiki
 - 遵循 GitHub UI 模式的简洁设计
 - 适用于所有 GitHub 仓库页面
 
-使用方法：
+🚀 使用方法：
 1. 安装扩展
 2. 访问任意 GitHub 仓库
 3. 点击仓库标题栏中的 "在 DeepWiki 中打开" 按钮
 4. 将跳转到对应的 DeepWiki 页面
 
-注意：
+⚠️ 注意：
 这是一个非官方扩展，与 GitHub 或 DeepWiki 没有关联。它只是提供了一种在 GitHub 仓库和其对应的 DeepWiki 页面之间便捷导航的方式。
 
-隐私：
+🔒 隐私：
 - 不收集数据
 - 不跟踪
 - 无需认证
 - 仅需访问 github.com 以添加按钮
 
-源代码也可用，您可以自行构建和安装。
+💻 源代码也可用，您可以自行构建和安装。
 详情请访问：
 https://github.com/yamadashy/github-deepwiki
