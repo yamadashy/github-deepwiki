@@ -1,10 +1,7 @@
 <div align="center">
   <img src="app/images/icon.png" alt="GitHub DeepWiki Button" width="200" height="auto">
-  <p align="center">
-    <b>GitHub DeepWiki Button</b>
-    <br>
-    <b>A browser extension that adds a DeepWiki button to GitHub repositories</b>
-  </p>
+  <h1>GitHub DeepWiki Button</h1>
+  <b>A browser extension that adds a DeepWiki button to GitHub repositories</b>
 </div>
 
 ![](./promo/Screenshot_1280x800.png)
