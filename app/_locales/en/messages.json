@@ -1,8 +1,4 @@
 {
-  "appName": {
-    "message": "GitHub DeepWiki (Unofficial)",
-    "description": "The name of the extension"
-  },
   "appDescription": {
     "message": "Add a button to quickly access DeepWiki from GitHub repositories",
     "description": "The description of the extension"

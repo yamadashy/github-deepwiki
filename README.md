@@ -1,6 +1,8 @@
 <div align="center">
-  <img src="app/images/icon.png" alt="GitHub DeepWiki" width="200" height="auto">
+  <img src="app/images/icon.png" alt="GitHub DeepWiki Button" width="200" height="auto">
   <p align="center">
+    <b>GitHub DeepWiki Button</b>
+    <br>
     <b>A browser extension that adds a DeepWiki button to GitHub repositories</b>
   </p>
 </div>
@@ -26,15 +28,15 @@ Just change `github.com` to `deepwiki.com` in any repository URL to access it.
 
 ## 🔒 Privacy Policy
 
-GitHub DeepWiki does not collect any data.
+GitHub DeepWiki Button does not collect any data.
 
-In the future, GitHub DeepWiki may add the ability to save user settings on your device, but that data will not be sent to the server.
+In the future, GitHub DeepWiki Button may add the ability to save user settings on your device, but that data will not be sent to the server.
 
-In addition, the GitHub DeepWiki management account will not be transferred to a third party.
+In addition, the GitHub DeepWiki Button management account will not be transferred to a third party.
 
 If you have any questions or inquiries regarding the privacy policy, please contact koukun0120@gmail.com.
 
-Revised: April 26, 2025
+Revised: April 29, 2025
 
 ## 💻 Development
 
