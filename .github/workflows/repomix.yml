@@ -1,0 +1,39 @@
+name: Pack repository with Repomix
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'app/**'
+      - 'packages/**'
+      - 'scripts/**'
+  pull_request:
+    paths:
+      - 'app/**'
+      - 'packages/**'
+      - 'scripts/**'
+
+jobs:
+  pack-repo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Pack repository with Repomix
+        uses: yamadashy/repomix/.github/actions/repomix@main
+        with:
+          directories: app packages scripts
+          include: "**/*.js,**/*.ts,**/*.css,**/*.json,**/*.md"
+          ignore: "**/*.test.js,**/node_modules/**"
+          output: github-deepwiki.txt
+          compress: true
+
+      - name: Upload Repomix output
+        uses: actions/upload-artifact@v4
+        with:
+          name: github-deepwiki-code
+          path: github-deepwiki.txt
+          retention-days: 30
