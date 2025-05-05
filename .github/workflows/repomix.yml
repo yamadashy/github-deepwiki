@@ -17,7 +17,6 @@ jobs:
       - name: Pack repository with Repomix
         uses: yamadashy/repomix/.github/actions/repomix@main
         with:
-          directories: app packages scripts
           output: repomix-output.xml
 
       - name: Upload Repomix output
