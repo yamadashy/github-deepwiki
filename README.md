@@ -17,7 +17,7 @@
 
 - Chrome: [GitHub DeepWiki Button - Chrome Web Store](https://chromewebstore.google.com/detail/github-deepwiki-unofficia/agchcjkheangfiopepndmenabbaopnpp)
 - Firefox: [GitHub DeepWiki Button - Firefox Add-ons](https://addons.mozilla.org/ja/firefox/addon/github-deepwiki-unofficial/)
-- Edge: Pending
+- Edge: [GitHub DeepWiki Button - Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/github-deepwiki-unoffici/cofnelnkmdkglinllgllloeelmbggfep)
 
 ### What is DeepWiki?
 
