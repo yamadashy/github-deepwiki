@@ -32,6 +32,8 @@ function addDeepWikiButton(): void {
   const button = document.createElement('a');
   button.className = 'btn-sm btn BtnGroup-item deepwiki-button';
   button.href = `https://deepwiki.com/${owner}/${repo}`;
+  button.target = '_blank';
+  button.rel = 'noopener noreferrer';
   button.setAttribute('data-view-component', 'true');
 
   // Add icon
