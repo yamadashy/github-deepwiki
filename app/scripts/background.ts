@@ -44,9 +44,7 @@ const injectContentToTab = async (tab: chrome.tabs.Tab): Promise<void> => {
 
 // Update extension content for tabs
 chrome.tabs.query({}, async (tabs: chrome.tabs.Tab[]) => {
-  for (const tabKey in tabs) {
-    const tab = tabs[tabKey];
-
+  for (const tab of tabs) {
     try {
       await injectContentToTab(tab);
     } catch (e) {
