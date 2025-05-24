@@ -6,8 +6,10 @@
     "dev": "webextension-toolbox dev",
     "build": "webextension-toolbox build",
     "build-all": "npm run build chrome && npm run build firefox && npm run build edge",
-    "lint": "npm run lint-biome && npm run lint-secretlint",
+    "generate-icons": "tsx scripts/generate-icons.ts",
+    "lint": "npm run lint-biome && npm run lint-tsc && npm run lint-secretlint",
     "lint-biome": "biome check --write",
+    "lint-tsc": "tsc --noEmit",
     "lint-secretlint": "secretlint \"**/*\" --secretlintignore .gitignore",
     "archive": "git archive HEAD -o storage/source.zip"
   },
@@ -32,12 +34,19 @@
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@secretlint/secretlint-rule-preset-recommend": "^9.3.1",
+    "@types/chrome": "^0.0.323",
+    "@types/node": "^22.10.2",
+    "@types/webextension-polyfill": "^0.10.7",
     "@webextension-toolbox/webextension-toolbox": "^7.1.1",
     "secretlint": "^9.3.1",
     "sharp": "^0.34.1",
-    "webpack": "^5.89.0"
+    "tsx": "^4.19.2",
+    "typescript": "^5.8.3"
   },
-  "dependencies": {
-    "webextension-polyfill": "^0.10.0"
+  "browserslist": [
+    "last 2 versions, not dead, > 0.2%"
+  ],
+  "engines": {
+    "node": ">=24.0.1"
   }
 }
