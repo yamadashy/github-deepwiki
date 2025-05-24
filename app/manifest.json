@@ -24,14 +24,14 @@
         "styles/content.css"
       ],
       "js": [
-        "scripts/content.js"
+        "scripts/content.ts"
       ],
       "run_at": "document_start",
       "all_frames": true
     }
   ],
   "background": {
-    "service_worker": "scripts/background.js"
+    "service_worker": "scripts/background.ts"
   },
   "permissions": [
     "scripting"
@@ -55,7 +55,7 @@
   ],
   "__firefox__background": {
     "scripts": [
-      "scripts/background.js"
+      "scripts/background.ts"
     ]
   },
   "__firefox__browser_specific_settings": {
