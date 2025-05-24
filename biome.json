@@ -2,7 +2,8 @@
   "$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
   "files": {
     "include": [
-      "app/scripts/**/*.js"
+      "app/scripts/**/*.js",
+      "app/scripts/**/*.ts"
     ],
     "ignore": [
       "website/client/.vitepress/.temp",

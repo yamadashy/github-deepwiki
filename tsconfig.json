@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*"]
+    },
+    "typeRoots": ["node_modules/@types"],
+    "types": ["chrome"],
+    "noImplicitAny": false,
+    "strict": false
+  },
+  "include": ["app/scripts/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
