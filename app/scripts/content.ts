@@ -1,12 +1,12 @@
 // Function to add DeepWiki button
-function addDeepWikiButton() {
+function addDeepWikiButton(): void {
   // If button already exists, do nothing
   if (document.querySelector('.deepwiki-button')) {
     return;
   }
 
   // Get repository main navigation element
-  const navActions = document.querySelector('ul.pagehead-actions');
+  const navActions = document.querySelector<HTMLUListElement>('ul.pagehead-actions');
   if (!navActions) {
     return;
   }
@@ -41,7 +41,7 @@ function addDeepWikiButton() {
     <img src="${chrome.runtime.getURL('images/icon-64.png')}" width="16" height="16" alt="DeepWiki">
   `;
 
-  // Add text with i18n support
+  // Add text
   const text = document.createTextNode('DeepWiki');
   button.appendChild(icon);
   button.appendChild(text);
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let lastUrl = location.href;
   let isProcessing = false;
 
-  const observer = new MutationObserver((mutations) => {
+  const observer = new MutationObserver((mutations: MutationRecord[]) => {
     if (isProcessing) return;
     isProcessing = true;
 
@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Monitor navigation element addition (only if button doesn't exist)
-    const navActions = document.querySelector('ul.pagehead-actions');
+    const navActions = document.querySelector<HTMLUListElement>('ul.pagehead-actions');
     const deepWikiButton = document.querySelector('.deepwiki-button');
     if (navActions && !deepWikiButton) {
       addDeepWikiButton();
